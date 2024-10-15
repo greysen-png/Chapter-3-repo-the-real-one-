@@ -18,8 +18,8 @@ int main()
 	float cupsButter = butter * cookiesUrBoyWants;
 	float cupsFlour = flour * cookiesUrBoyWants;
 
-	cout << "To make " << cookiesUrBoyWants << "cookie(s), you'll need:\n\n" <<
-		cupsSugar << " cups sugar\n" <<
+	cout << "To make " << cookiesUrBoyWants << "cookie(s), you'll need:\n\n" << //is it bad to not use ; like in this part?
+		cupsSugar << " cups sugar\n" << 
 		cupsButter << " cups butter\n" <<
 		cupsFlour << " cups flour\n\n" <<
 		"Everything is in cups, so the decimals might be a bit large\n";
