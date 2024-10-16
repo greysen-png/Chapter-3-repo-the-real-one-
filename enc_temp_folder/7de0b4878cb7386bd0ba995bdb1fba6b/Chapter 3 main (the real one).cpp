@@ -23,8 +23,7 @@ int main()
 	cout << "What's the principle or amount of money already in the account?";
 	cin >> principal;
 
-	double rateWithT = 1 + interestRate / timesCompounded;
-	long amountInterest = principal * pow(rateWithT, timesCompounded);
+	long amountInterest = principal * pow(double (1 + interestRate / timesCompounded), timesCompounded);
 	float amountTotal = amountInterest + principal;
 
 	int width = 20;
