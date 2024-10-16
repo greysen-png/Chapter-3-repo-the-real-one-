@@ -16,14 +16,15 @@ int main()
 
 	int firstNumber = randomInt(engine), secondNumber = randomInt(engine);
 
-	cout << "Try solving THIS!!!";
-	cout << setw(6) << firstNumber;
-	cout << "+" << setw(5) << secondNumber;
-	cout << "---------------------------";
+	cout << "Try solving THIS!!!\n\n";
+	cout << setw(6) << firstNumber << endl;
+	cout << "+" << setw(5) << secondNumber << endl;
+	cout << "-------\n\n";
+	cout << "Press Enter or something when you're done\n";
 	
 	cin.get();
 
-	cout << firstNumber + secondNumber;
+	cout << setw(6) << firstNumber + secondNumber;
 
 	return 0;
 }
